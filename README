@@ -1,13 +1,13 @@
-    PROJECT          :   Trading Information Disclosure
+** PROJECT **         :   Trading Information Disclosure
     
-    TEAM             :   STACKOVERFLOW
+** TEAM **            :   STACKOVERFLOW
     
-    AUTHORS          :   นายปรเมศวร์ จริยะยรรยง      61070115    huayong1678
+** AUTHORS **         :   นายปรเมศวร์ จริยะยรรยง      61070115    huayong1678
                          นางสาวอณิษฐา ใจอ่อน       61070255    AnitthaJai-on
 			 นายทิวัตถ์ ทิพย์เลขา         61070067    wakeru01
                          นางสาวอารดา ยะรังวงษ์       61070269    AradaYarangwong
 
-    ABOUT PROJECT    :   การแสดงข้อมูลการซื้อขายของต่างชาติ ตลาดหลักทรัพย์รายปี ตั้งแต่ปี 2000-2017 
+** ABOUT PROJECT **   :   การแสดงข้อมูลการซื้อขายของต่างชาติ ตลาดหลักทรัพย์รายปี ตั้งแต่ปี 2000-2017 
 			  โดยแสดงผลเป็นกราฟ
 			  เปรียบเทียบการซื้อในแต่ละปีว่าปีไหนมีการซื้อมากที่สุดและปีไหนน้อยที่สุด
 			  เปรียบเทียบการขายในแต่ละปีว่าปีไหนมีการขายมากที่สุดและปีไหนน้อยที่สุด
@@ -15,6 +15,10 @@
 
 ----------------------------------------------------------------------------------------------------------------------------
 
-     DATA SOURCE     :   https://www.set.or.th/th/market/market_statistics.html#header
-     BLOG PROJECT    :   https://stackoverflowkmitl.blogspot.com/2018/12/stackoverflow.html
-     
+** DATA SOURCE **    :   https://www.set.or.th/th/market/market_statistics.html#header
+** BLOG PROJECT **   :   https://stackoverflowkmitl.blogspot.com/2018/12/stackoverflow.html
+
+
+|นายปรเมศวร์ จริยะยรรยง|นางสาวอณิษฐา ใจอ่อน|นายทิวัตถ์ ทิพย์เลขา|นางสาวอารดา ยะรังวงษ์|
+|61070115|61070255|61070067|61070269|
+|[huayong1678](https://github.com/huayong1678)|[AnitthaJai-on](https://github.com/AnitthaJai-on)|[wakeru01](https://github.com/wakeru01)|[AradaYarangwong](https://github.com/AradaYarangwong)|

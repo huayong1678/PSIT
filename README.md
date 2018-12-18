@@ -1,9 +1,6 @@
-# PROJECT
-**Trading Information Disclosure**
+# PROJECT : Trading Information Disclosure
+**by TEAM STACKOVERFLOW**
 
-## TEAM
-STACKOVERFLOW
-    
 ## ABOUT PROJECT
 การแสดงข้อมูลการซื้อขายของต่างชาติ ตลาดหลักทรัพย์รายปี ตั้งแต่ปี 2000-2017 โดยแสดงผลเป็นกราฟ
 - เปรียบเทียบการซื้อในแต่ละปีว่าปีไหนมีการซื้อมากที่สุดและปีไหนน้อยที่สุด

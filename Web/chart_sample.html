@@ -1,13 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
+    <meta charset='utf-8' />
     <title>SAMPLE CHART</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js'></script>
+    <style>
+	canvas {
+		-moz-user-select: none;
+		-webkit-user-select: none;
+		-ms-user-select: none;
+	}
+	</style>
 </head>
 <body>
-    <div class="chat-container" style="position: relative; height:40vh; width:80vw">
-        <canvas id="buy" aria-label="Buy in 2000-2017" role="img">
+    <div class='chat-container' style='position: relative; height:40vh; width:80vw'>
+        <canvas id='buy' aria-label='Buy in 2000-2017' role='img'>
         Your browser does not support the canvas element.
         </canvas>
     </div>
@@ -15,22 +22,24 @@
     var ctx = document.getElementById('buy').getContext('2d');
     var chart = new Chart(ctx, {
     // The type of chart we want to create
-        type: 'line',
-
+        type: 'bar',
     // The data for our dataset
         data: {
-            labels: ["January", "February", "March", "April", "May", "June", "July"],
+            labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
             datasets: [{
-                label: "My First dataset",
+                label: 'Stock Exchange - Buying (Year 2000)',
                 backgroundColor: 'rgb(255, 99, 132)',
                 borderColor: 'rgb(255, 99, 132)',
                 data: [0, 10, 5, 2, 20, 30, 45],
-            }]
+            }, {label: 'Stock Exchange - Selling (Year 2000)',
+                backgroundColor: 'rgb(216, 230, 240)',
+                borderColor: 'rgb(216, 230, 240)',
+                data: [0, 10, 5, 2, 20, 30, 45],}]
         },
-
     // Configuration options go here
         options: {}
     });
     </script>
 </body>
+
 </html>

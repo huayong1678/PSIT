@@ -7,7 +7,7 @@
 - เปรียบเทียบการขายในแต่ละปีว่าปีไหนมีการขายมากที่สุดและปีไหนน้อยที่สุด
 - กราฟของปีที่มีการซื้อการขายมากที่สุดและกราฟของปีที่มีการซื้อการขายน้อยที่สุด
 
-**DATA SOURCE     :**   https://www.set.or.th/th/market/market_statistics.html#header
+**DATA SOURCE     :**   https://www.set.or.th/th/market/market_statistics.html
 <br>**BLOG PROJECT    :**   https://stackoverflowkmitl.blogspot.com/2018/12/stackoverflow.html
 <br>**VIDEO PROJECT   :**   https://www.youtube.com/watch?v=nn9iNOZbVDk&feature=youtu.be
  			

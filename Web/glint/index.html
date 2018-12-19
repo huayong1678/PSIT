@@ -38,6 +38,40 @@
 
 <body id="top">
 
+    <!-- API Script for index
+    ================================================== -->
+    <script type="text/javascript">
+
+        $.getJSON('https://api.iextrading.com/1.0/stock/aapl/batch?types=quote,news,chart&range=1m&last=10#quote', function(response) {
+                document.getElementById('AAPL').innerHTML = response.quote.latestPrice
+        });
+
+    </script>
+
+    <script type="text/javascript">
+
+        $.getJSON('https://api.iextrading.com/1.0/stock/fb/batch?types=quote,news,chart&range=1m&last=10#quote', function(response) {
+                document.getElementById('FB').innerHTML = response.quote.latestPrice
+        });
+
+    </script>
+
+    <script type="text/javascript">
+
+        $.getJSON('https://api.iextrading.com/1.0/stock/nke/batch?types=quote,news,chart&range=1m&last=10#quote', function(response) {
+                document.getElementById('NKE').innerHTML = response.quote.latestPrice
+        });
+
+    </script>
+
+    <script type="text/javascript">
+
+        $.getJSON('https://api.iextrading.com/1.0/stock/amzn/batch?types=quote,news,chart&range=1m&last=10#quote', function(response) {
+                document.getElementById('AMZN').innerHTML = response.quote.latestPrice
+        });
+
+    </script><!-- end API -->
+
     <!-- header
     ================================================== -->
     <header class="s-header">
@@ -179,37 +213,23 @@
             </div>
         </div> <!-- end about-desc -->
 
-        <script type="text/javascript">
-
-            $.getJSON('https://api.iextrading.com/1.0/stock/aapl/batch?types=quote,news,chart&range=1m&last=10#quote', function(response) {
-                document.getElementById('AAPL').innerHTML = response.quote.latestPrice
-            });
-            $.getJSON('https://api.iextrading.com/1.0/stock/fb/batch?types=quote,news,chart&range=1m&last=10#quote', function(response) {
-                document.getElementById('FB').innerHTML = response.quote.latestPrice
-            });
-            $.getJSON('https://api.iextrading.com/1.0/stock/nke/batch?types=quote,news,chart&range=1m&last=10#quote', function(response) {
-                document.getElementById('NKE').innerHTML = response.quote.latestPrice
-            });
-      
-        </script>
-
         <div class="row about-stats stats block-1-4 block-m-1-2 block-mob-full" data-aos="fade-up">
                 
             <div class="col-block stats__col ">
-                <div class="stats__count"></div>
+                <div class="stats__count">120</div>
                 <h5>AAPL</h5>
             </div>
             <div class="col-block stats__col">
-                <div class="stats__count"></div>
+                <div class="stats__count">210</div>
                 <h5>NKE</h5>
             </div>
             <div class="col-block stats__col">
-                <div class="stats__count"></div>
+                <div class="stats__count">230</div>
                 <h5>FB</h5>
             </div>
             <div class="col-block stats__col">
-                <div class="stats__count"></div>
-                <h5>Happy Clients</h5> 
+                <div class="stats__count">320</div>
+                <h5>AMZN</h5> 
             </div>
 
         </div> <!-- end about-stats -->

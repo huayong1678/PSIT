@@ -8,8 +8,8 @@
 <body>
     <script type="text/javascript">
 
-            $.getJSON('https://api.iextrading.com/1.0/stock/aapl/batch?types=quote,news,chart&range=1m&last=10#quote/latestPrice', function(response) {
-        document.getElementById('AAPL').innerHTML = response
+            $.getJSON('https://api.iextrading.com/1.0/stock/aapl/batch?types=quote,news,chart&range=1m&last=10#quote', function(response) {
+        document.getElementById('AAPL').innerHTML = response.quote.latestPrice
       });
       
     </script>

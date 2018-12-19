@@ -10,11 +10,11 @@
 **DATA SOURCE     :**   https://www.set.or.th/th/market/market_statistics.html
 <br>**BLOG PROJECT    :**   https://stackoverflowkmitl.blogspot.com/2018/12/stackoverflow.html
 <br>**VIDEO PROJECT   :**   https://www.youtube.com/watch?v=nn9iNOZbVDk&feature=youtu.be
- 			
-# AUTHORS
-นายปรเมศวร์ จริยะยรรยง 61070115 [huayong1678](https://github.com/huayong1678)
-<br>นางสาวอณิษฐา ใจอ่อน 61070255 [AnitthaJai-on](https://github.com/AnitthaJai-on)
-<br>นายทิวัตถ์ ทิพย์เลขา 61070067 [wakeru01](https://github.com/wakeru01)
-<br>นางสาวอารดา ยะรังวงษ์ 61070269 [AradaYarangwong](https://github.com/AradaYarangwong)
 
-<br><img src="AUTHORS/A.jpg" width="200px" height="200px"> <img src="AUTHORS/B.jpg" width="200px" height="200px"> <img src="AUTHORS/C.jpg" width="200px" height="200px"> <img src="AUTHORS/D.jpg" width="200px" height="200px">
+## AUTHORS
+|<img src="AUTHORS/A.jpg" width="200px" height="200px"> |<img src="AUTHORS/B.jpg" width="200px" height="200px">|<img src="AUTHORS/C.jpg" width="200px" height="200px">|<img src="AUTHORS/D.jpg" width="200px" height="200px">|
+|:---:|:---:|:---:|:---:|
+|[huayong1678](https://github.com/huayong1678)|[AnitthaJai-on](https://github.com/AnitthaJai-on)|[wakeru01](https://github.com/wakeru01)|[AradaYarangwong](https://github.com/AradaYarangwong)|
+|**ปรเมศวร์ จริยะยรรยง**|**อณิษฐา ใจอ่อน**|**ทิวัตถ์ ทิพย์เลขา**|**อารดา ยะรังวงษ์**|
+|ุ61070115|61070255|61070067|61070269|
+|ปลื้ม|เบล|ไทม์|ดา|

@@ -75,12 +75,78 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <h2 class="text-white mb-4">Built with Bootstrap 4</h2>
+            <h2 class="text-white mb-4">Built with Chart.js</h2>
             <p class="text-white-50">Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on
               <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
           </div>
         </div>
-        <img src="img/ipad.png" class="img-fluid" alt="">
+        <!--- <img src="img/ipad.png" class="img-fluid" alt=""> --->
+        <div class='chat-container' style='position: relative; height:80vh; width:80vw'>
+          <canvas id='buy' aria-label='Buy in 2000-2017' role='img'>
+          Your browser does not support the canvas element.
+          </canvas>
+      </div>
+      <script>
+      var ctx = document.getElementById('buy').getContext('2d');
+      var gradientStroke = ctx.createLinearGradient(500, 0, 100, 0);
+      gradientStroke.addColorStop(0, '#F82B4A');
+      gradientStroke.addColorStop(1, '#F78644');
+      var gradientStroke_2 = ctx.createLinearGradient(500, 0, 100, 0);
+      gradientStroke_2.addColorStop(0, '#2D86FB');
+      gradientStroke_2.addColorStop(1, '#5509C7');
+      Chart.defaults.global.defaultFontColor = 'rgba(255, 255, 255, 0.8)';
+      let chart = new Chart(ctx, {
+      // The type of chart we want to create
+          type: 'line',
+      // The data for our dataset
+          data: {
+              labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+              datasets: [{
+                  label: 'Stock Exchange - Buying (Year 2000)',
+                  data: [41502.21, 40696.69, 40368.49, 19037.47, 17431.38, 21510.99, 15691.64, 23058.08, 13574.72, 18399.92, 19942.16, 9571.3],
+                  borderColor: gradientStroke,
+                  pointBorderColor: gradientStroke,
+                  pointBackgroundColor: gradientStroke,
+                  pointHoverBackgroundColor: gradientStroke,
+                  pointHoverBorderColor: gradientStroke,
+                  pointBorderWidth: 10,
+                  pointHoverRadius: 10,
+                  pointHoverBorderWidth: 1,
+                  pointRadius: 3,
+                  fill: true,
+                  borderWidth: 2,
+              }, {label: 'Stock Exchange - Selling (Year 2000)',
+                  borderColor: gradientStroke_2,
+                  pointBorderColor: gradientStroke_2,
+                  pointBackgroundColor: gradientStroke_2,
+                  pointHoverBackgroundColor: gradientStroke_2,
+                  pointHoverBorderColor: gradientStroke_2,
+                  pointBorderWidth: 10,
+                  pointHoverRadius: 10,
+                  pointHoverBorderWidth: 1,
+                  pointRadius: 3,
+                  fill: true,
+                  borderWidth: 2,
+                  data: [10790.1, 19290.33, 19020.18, 16908.02, 21877.05, 17331.50, 22523.70, 23493.06, 22988.33, 43739.71, 51083.46, 44807.27],}]
+          },
+      // Configuration options go here
+          options: {
+            legend: {
+              labels: {
+                fontColor: 'rgba(255, 255, 255, 0.954)'
+              }
+            }, 
+            title: {
+              display: true,
+              text: 'Stock Exchange (Year 2000)',
+              fontFamily: 'Varela Round',
+              fontSize: 24,
+              fontColor: 'rgba(255, 255, 255)',
+              fontStyle: 'normal'
+            }
+          }
+      });
+      </script>
       </div>
     </section>
 
